@@ -1,0 +1,73 @@
+.navi{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    color: white;
+    height:60px;
+    font-family: 'Rampart One', cursive;
+}
+.image{
+    width:60px;
+    height:60px;
+}
+.errormsg{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.title{
+    color: white; 
+    text-shadow: 1px 1px 5px red;
+}
+.search{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+#searchbox{
+    width: 200px;
+    margin-right: 20px;
+}
+.resultBox{
+    margin-top: 30px;
+    box-shadow: 0 5px 7px ;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.wordSpeaker{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.audiobtn{
+    margin-left: 20px;
+    width:100px;
+    height:30px;
+}
+
+.meanTitle{
+    text-align: center;
+}
+.meaningBox{
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+h3{
+    color: crimson;
+}
+h5{
+    color:teal;
+}
+p{
+    color: rgb(46, 45, 45);
+}
